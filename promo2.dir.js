@@ -2,7 +2,7 @@ module.exports = function() {
     return {
         restrict: 'A',
         link: function (scope, element, attributes) {
-            element.css('border', '1px solid blue');
+            element.css('border', '1px solid yellow');
         }
     };
 };
